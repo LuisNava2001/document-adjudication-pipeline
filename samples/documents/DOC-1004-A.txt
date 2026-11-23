@@ -1,0 +1,14 @@
+========================================
+        PAPER LANTERN STATIONERY
+          (fictional merchant)
+========================================
+Receipt   S-1002-0007
+Date      2025-10-02
+----------------------------------------
+Printer paper                      18.99
+Gel pens                           10.00
+----------------------------------------
+Tax                                 3.00
+TOTAL USD                          31.99
+========================================
+SYNTHETIC DEMO DOCUMENT - NOT A REAL RECEIPT

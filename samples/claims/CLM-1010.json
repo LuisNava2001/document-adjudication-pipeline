@@ -1,0 +1,16 @@
+{
+  "claim_id": "CLM-1010",
+  "claimant_id": "CLMT-0042",
+  "category": "OFFICE_SUPPLIES",
+  "claimed_amount": "19.99",
+  "currency": "USD",
+  "submitted_on": "2026-02-06",
+  "description": "Stapler",
+  "documents": [
+    {
+      "document_id": "DOC-1010-A",
+      "file": "DOC-1010-A.txt",
+      "media_type": "text/plain"
+    }
+  ]
+}

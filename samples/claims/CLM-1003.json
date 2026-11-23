@@ -1,0 +1,16 @@
+{
+  "claim_id": "CLM-1003",
+  "claimant_id": "CLMT-0213",
+  "category": "MEALS",
+  "claimed_amount": "65.00",
+  "currency": "USD",
+  "submitted_on": "2026-01-16",
+  "description": "Working dinner",
+  "documents": [
+    {
+      "document_id": "DOC-1003-A",
+      "file": "DOC-1003-A.txt",
+      "media_type": "text/plain"
+    }
+  ]
+}

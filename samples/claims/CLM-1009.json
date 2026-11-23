@@ -1,0 +1,16 @@
+{
+  "claim_id": "CLM-1009",
+  "claimant_id": "CLMT-0420",
+  "category": "TRAVEL",
+  "claimed_amount": "64.00",
+  "currency": "CAD",
+  "submitted_on": "2026-02-05",
+  "description": "Airport shuttle",
+  "documents": [
+    {
+      "document_id": "DOC-1009-A",
+      "file": "DOC-1009-A.txt",
+      "media_type": "text/plain"
+    }
+  ]
+}

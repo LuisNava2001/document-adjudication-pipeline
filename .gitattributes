@@ -1,0 +1,3 @@
+# Keep LF in the working tree on every platform. The recorded extractions pin
+# the SHA-256 of each synthetic document; the extractor also normalizes CRLF.
+* text=auto eol=lf

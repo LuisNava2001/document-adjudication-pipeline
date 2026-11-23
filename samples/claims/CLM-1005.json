@@ -1,0 +1,16 @@
+{
+  "claim_id": "CLM-1005",
+  "claimant_id": "CLMT-0318",
+  "category": "MEALS",
+  "claimed_amount": "38.20",
+  "currency": "USD",
+  "submitted_on": "2026-01-21",
+  "description": "Team lunch",
+  "documents": [
+    {
+      "document_id": "DOC-1005-A",
+      "file": "DOC-1005-A.txt",
+      "media_type": "text/plain"
+    }
+  ]
+}

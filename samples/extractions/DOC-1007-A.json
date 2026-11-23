@@ -1,0 +1,15 @@
+{
+  "document_id": "DOC-1007-A",
+  "provider": "synthetic-recording",
+  "note": "Pre-recorded extraction result for a synthetic document. No OCR was performed.",
+  "source_sha256": "7e074e6fa5ccb606255d20f120d7aa7e88985c0681f25eefad3a849512c86fc4",
+  "page_count": 1,
+  "fields": {},
+  "line_items": [],
+  "simulated_failure": {
+    "kind": "UNREADABLE_DOCUMENT",
+    "retryable": false,
+    "fail_attempts": null,
+    "message": "image too blurred to read"
+  }
+}

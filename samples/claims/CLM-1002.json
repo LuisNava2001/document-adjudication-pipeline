@@ -1,0 +1,21 @@
+{
+  "claim_id": "CLM-1002",
+  "claimant_id": "CLMT-0107",
+  "category": "TRAVEL",
+  "claimed_amount": "86.40",
+  "currency": "USD",
+  "submitted_on": "2026-01-23",
+  "description": "Taxi and train to a workshop",
+  "documents": [
+    {
+      "document_id": "DOC-1002-A",
+      "file": "DOC-1002-A.txt",
+      "media_type": "text/plain"
+    },
+    {
+      "document_id": "DOC-1002-B",
+      "file": "DOC-1002-B.txt",
+      "media_type": "text/plain"
+    }
+  ]
+}

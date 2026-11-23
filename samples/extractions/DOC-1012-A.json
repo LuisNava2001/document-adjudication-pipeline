@@ -1,0 +1,45 @@
+{
+  "document_id": "DOC-1012-A",
+  "provider": "synthetic-recording",
+  "note": "Pre-recorded extraction result for a synthetic document. No OCR was performed.",
+  "source_sha256": "57143acfaa5f54c306617b63f69bd702c4a5309efbd4fda9674b706169a17c0a",
+  "page_count": 1,
+  "fields": {
+    "merchant_name": {
+      "value": "BRIGHTDESK SUPPLY CO.",
+      "confidence": 0.97
+    },
+    "receipt_number": {
+      "value": "B-0206-0612",
+      "confidence": 0.97
+    },
+    "transaction_date": {
+      "value": "2026-02-06",
+      "confidence": 0.97
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 0.97
+    },
+    "tax": {
+      "value": "1.50",
+      "confidence": 0.97
+    },
+    "total_amount": {
+      "value": "27.50",
+      "confidence": 0.97
+    }
+  },
+  "line_items": [
+    {
+      "description": "Notebook pack",
+      "amount": "12.00",
+      "confidence": 0.95
+    },
+    {
+      "description": "Desk organizer",
+      "amount": "13.00",
+      "confidence": 0.95
+    }
+  ]
+}

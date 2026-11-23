@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Test and tool caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+# created by globally installed pytest plugins, not by this project
+.deepeval/
+
+# Demo output
+demo-output/
+out/
+*.jsonl
+
+# Local configuration and secrets (none are needed by this project)
+.env
+.env.*
+*.local.json
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adjudication Demo Viewer</title>
+  <meta name="description" content="Static viewer for the synthetic results of the document AI adjudication pipeline.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1>Document AI Adjudication <span class="brand-sub">demo viewer</span></h1>
+      <p class="subtitle">Synthetic reimbursement claims processed by the local pipeline in deterministic mode.
+        Extraction results are pre-recorded fixtures: no OCR runs and nothing is fetched from the network.</p>
+    </div>
+    <button id="theme-toggle" class="theme-toggle" type="button">Theme: auto</button>
+  </header>
+
+  <main class="layout">
+    <nav class="case-panel" aria-label="Claims">
+      <div id="filters" class="filters" role="toolbar" aria-label="Filter claims by outcome"></div>
+      <ol id="case-list" class="case-list"></ol>
+    </nav>
+    <section id="detail" class="detail" aria-live="polite"></section>
+  </main>
+
+  <footer id="footer" class="footer"></footer>
+
+  <noscript><p class="noscript">This viewer needs JavaScript. The same results are available as JSON from
+    <code>python -m adjudication batch samples/claims</code>.</p></noscript>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "policy_version": "demo-2026.1",
+  "min_field_confidence": 0.85,
+  "amount_tolerance": "0.01",
+  "submission_window_days": 60,
+  "allowed_currencies": ["USD", "EUR", "CAD"],
+  "required_fields": ["merchant_name", "transaction_date", "currency", "total_amount"],
+  "category_limits": {
+    "MEALS": {"USD": "75.00", "EUR": "70.00", "CAD": "100.00"},
+    "TRAVEL": {"USD": "250.00", "EUR": "230.00", "CAD": "330.00"},
+    "LODGING": {"USD": "300.00", "EUR": "280.00", "CAD": "400.00"},
+    "OFFICE_SUPPLIES": {"USD": "100.00", "EUR": "90.00", "CAD": "130.00"},
+    "TRAINING": {"USD": "500.00", "EUR": "460.00", "CAD": "660.00"}
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "document_id": "DOC-1009-A",
+  "provider": "synthetic-recording",
+  "note": "Pre-recorded extraction result for a synthetic document. No OCR was performed.",
+  "source_sha256": "5b8e773b4a4e90f88ab40c0795832d7b3abc6af2d91260bf84df13dafd11d6dc",
+  "page_count": 1,
+  "fields": {
+    "merchant_name": {
+      "value": "MAPLE RIDGE SHUTTLE",
+      "confidence": 0.97
+    },
+    "receipt_number": {
+      "value": "MR-0203-0044",
+      "confidence": 0.97
+    },
+    "transaction_date": {
+      "value": "2026-02-03",
+      "confidence": 0.97
+    },
+    "currency": {
+      "value": "CAD",
+      "confidence": 0.97
+    },
+    "tax": {
+      "value": "8.00",
+      "confidence": 0.97
+    },
+    "total_amount": {
+      "value": "64.00",
+      "confidence": 0.97
+    }
+  },
+  "line_items": [
+    {
+      "description": "Airport shuttle",
+      "amount": "56.00",
+      "confidence": 0.95
+    }
+  ],
+  "simulated_failure": {
+    "kind": "SERVICE_UNAVAILABLE",
+    "retryable": true,
+    "fail_attempts": 1,
+    "message": "HTTP 503 from the extraction service"
+  }
+}

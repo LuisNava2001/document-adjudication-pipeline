@@ -1,0 +1,45 @@
+{
+  "document_id": "DOC-1004-A",
+  "provider": "synthetic-recording",
+  "note": "Pre-recorded extraction result for a synthetic document. No OCR was performed.",
+  "source_sha256": "dd8cf9247cef6e3ee7dbfe1daa49d737bee7863865c79d8580e1f24ce91e331c",
+  "page_count": 1,
+  "fields": {
+    "merchant_name": {
+      "value": "PAPER LANTERN STATIONERY",
+      "confidence": 0.97
+    },
+    "receipt_number": {
+      "value": "S-1002-0007",
+      "confidence": 0.97
+    },
+    "transaction_date": {
+      "value": "2025-10-02",
+      "confidence": 0.97
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 0.97
+    },
+    "tax": {
+      "value": "3.00",
+      "confidence": 0.97
+    },
+    "total_amount": {
+      "value": "31.99",
+      "confidence": 0.97
+    }
+  },
+  "line_items": [
+    {
+      "description": "Printer paper",
+      "amount": "18.99",
+      "confidence": 0.95
+    },
+    {
+      "description": "Gel pens",
+      "amount": "10.00",
+      "confidence": 0.95
+    }
+  ]
+}

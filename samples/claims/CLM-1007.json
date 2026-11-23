@@ -1,0 +1,16 @@
+{
+  "claim_id": "CLM-1007",
+  "claimant_id": "CLMT-0420",
+  "category": "TRAINING",
+  "claimed_amount": "150.00",
+  "currency": "EUR",
+  "submitted_on": "2026-02-02",
+  "description": "Workshop registration",
+  "documents": [
+    {
+      "document_id": "DOC-1007-A",
+      "file": "DOC-1007-A.txt",
+      "media_type": "text/plain"
+    }
+  ]
+}

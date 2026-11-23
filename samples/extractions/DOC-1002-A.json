@@ -1,0 +1,40 @@
+{
+  "document_id": "DOC-1002-A",
+  "provider": "synthetic-recording",
+  "note": "Pre-recorded extraction result for a synthetic document. No OCR was performed.",
+  "source_sha256": "6482c277ea27ead12d96205feca255123ebd01b895365222914cd88c96f1013e",
+  "page_count": 1,
+  "fields": {
+    "merchant_name": {
+      "value": "QUICKSTEP CABS",
+      "confidence": 0.97
+    },
+    "receipt_number": {
+      "value": "T-0120-5521",
+      "confidence": 0.97
+    },
+    "transaction_date": {
+      "value": "2026-01-20",
+      "confidence": 0.97
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 0.97
+    },
+    "tax": {
+      "value": "3.40",
+      "confidence": 0.97
+    },
+    "total_amount": {
+      "value": "24.40",
+      "confidence": 0.97
+    }
+  },
+  "line_items": [
+    {
+      "description": "City fare",
+      "amount": "21.00",
+      "confidence": 0.95
+    }
+  ]
+}

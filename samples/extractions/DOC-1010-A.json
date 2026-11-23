@@ -1,0 +1,46 @@
+{
+  "document_id": "DOC-1010-A",
+  "provider": "synthetic-recording",
+  "note": "Pre-recorded extraction result for a synthetic document. No OCR was performed.",
+  "source_sha256": "56dc2d12754df3412b6d593b8e9347c2a42a9479fc401c44aa4bce37407de524",
+  "page_count": 1,
+  "fields": {
+    "merchant_name": {
+      "value": "CORNER DESK DEPOT",
+      "confidence": 0.97
+    },
+    "receipt_number": {
+      "value": "CD-0204-0815",
+      "confidence": 0.97
+    },
+    "transaction_date": {
+      "value": "2026-02-04",
+      "confidence": 0.97
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 0.97
+    },
+    "tax": {
+      "value": "2.00",
+      "confidence": 0.97
+    },
+    "total_amount": {
+      "value": "19.99",
+      "confidence": 0.97
+    }
+  },
+  "line_items": [
+    {
+      "description": "Stapler",
+      "amount": "17.99",
+      "confidence": 0.95
+    }
+  ],
+  "simulated_failure": {
+    "kind": "SERVICE_UNAVAILABLE",
+    "retryable": true,
+    "fail_attempts": null,
+    "message": "HTTP 503 from the extraction service"
+  }
+}

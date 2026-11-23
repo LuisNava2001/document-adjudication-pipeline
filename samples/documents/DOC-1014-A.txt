@@ -1,0 +1,15 @@
+========================================
+            BLUE FERN BISTRO
+          (fictional merchant)
+========================================
+Receipt   R-0108-0117
+Date      2026-01-08
+----------------------------------------
+Lentil soup                         9.50
+Grilled vegetables                 24.00
+Sparkling water                     4.00
+----------------------------------------
+Tax                                 5.00
+TOTAL USD                          42.50
+========================================
+SYNTHETIC DEMO DOCUMENT - NOT A REAL RECEIPT

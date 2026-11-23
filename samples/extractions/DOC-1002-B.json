@@ -1,0 +1,40 @@
+{
+  "document_id": "DOC-1002-B",
+  "provider": "synthetic-recording",
+  "note": "Pre-recorded extraction result for a synthetic document. No OCR was performed.",
+  "source_sha256": "4be5f8602733aea79be2197376b15c914e2bf4757269b17759ac516b9923dc39",
+  "page_count": 1,
+  "fields": {
+    "merchant_name": {
+      "value": "CEDAR LINE RAIL",
+      "confidence": 0.97
+    },
+    "receipt_number": {
+      "value": "CL-0121-0098",
+      "confidence": 0.97
+    },
+    "transaction_date": {
+      "value": "2026-01-21",
+      "confidence": 0.97
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 0.97
+    },
+    "tax": {
+      "value": "0.00",
+      "confidence": 0.97
+    },
+    "total_amount": {
+      "value": "62.00",
+      "confidence": 0.97
+    }
+  },
+  "line_items": [
+    {
+      "description": "Regional ticket",
+      "amount": "62.00",
+      "confidence": 0.95
+    }
+  ]
+}

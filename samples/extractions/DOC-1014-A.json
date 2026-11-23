@@ -1,0 +1,50 @@
+{
+  "document_id": "DOC-1014-A",
+  "provider": "synthetic-recording",
+  "note": "Pre-recorded extraction result for a synthetic document. No OCR was performed.",
+  "source_sha256": "67fafc3b89aca3431aa9285ae929bc272c44f13c3b65ac32d269fc9f64971bd6",
+  "page_count": 1,
+  "fields": {
+    "merchant_name": {
+      "value": "BLUE FERN BISTRO",
+      "confidence": 0.97
+    },
+    "receipt_number": {
+      "value": "R-0108-0117",
+      "confidence": 0.97
+    },
+    "transaction_date": {
+      "value": "2026-01-08",
+      "confidence": 0.97
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 0.97
+    },
+    "tax": {
+      "value": "5.00",
+      "confidence": 0.97
+    },
+    "total_amount": {
+      "value": "42.50",
+      "confidence": 0.97
+    }
+  },
+  "line_items": [
+    {
+      "description": "Lentil soup",
+      "amount": "9.50",
+      "confidence": 0.95
+    },
+    {
+      "description": "Grilled vegetables",
+      "amount": "24.00",
+      "confidence": 0.95
+    },
+    {
+      "description": "Sparkling water",
+      "amount": "4.00",
+      "confidence": 0.95
+    }
+  ]
+}

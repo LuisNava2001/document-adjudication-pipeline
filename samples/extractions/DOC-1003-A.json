@@ -1,0 +1,45 @@
+{
+  "document_id": "DOC-1003-A",
+  "provider": "synthetic-recording",
+  "note": "Pre-recorded extraction result for a synthetic document. No OCR was performed.",
+  "source_sha256": "46ff9a7dd84159903882c89ba4aca689afe7d4786c7a1e7e98b197e221089725",
+  "page_count": 1,
+  "fields": {
+    "merchant_name": {
+      "value": "SAFFRON LANE KITCHEN",
+      "confidence": 0.97
+    },
+    "receipt_number": {
+      "value": "R-0114-0410",
+      "confidence": 0.97
+    },
+    "transaction_date": {
+      "value": "2026-01-14",
+      "confidence": 0.97
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 0.97
+    },
+    "tax": {
+      "value": "8.00",
+      "confidence": 0.97
+    },
+    "total_amount": {
+      "value": "48.00",
+      "confidence": 0.97
+    }
+  },
+  "line_items": [
+    {
+      "description": "Set menu",
+      "amount": "18.00",
+      "confidence": 0.95
+    },
+    {
+      "description": "Set menu, large",
+      "amount": "22.00",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "document_id": "DOC-1011-B",
+  "provider": "synthetic-recording",
+  "note": "Pre-recorded extraction result for a synthetic document. No OCR was performed.",
+  "source_sha256": "fa70626983a92d3074cb76a2be5fcdc57f1eb897eec92e7c8c1a59b75883d8b4",
+  "page_count": 1,
+  "fields": {
+    "merchant_name": {
+      "value": "OLIVE COURT DINER",
+      "confidence": 0.97
+    },
+    "receipt_number": {
+      "value": "R-0204-0033",
+      "confidence": 0.97
+    },
+    "transaction_date": {
+      "value": "2026-02-04",
+      "confidence": 0.97
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 0.97
+    },
+    "tax": {
+      "value": "5.00",
+      "confidence": 0.97
+    },
+    "total_amount": {
+      "value": "35.00",
+      "confidence": 0.97
+    }
+  },
+  "line_items": [
+    {
+      "description": "Lunch special",
+      "amount": "18.00",
+      "confidence": 0.95
+    },
+    {
+      "description": "Fresh juice",
+      "amount": "12.00",
+      "confidence": 0.95
+    }
+  ]
+}

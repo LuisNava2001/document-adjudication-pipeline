@@ -1,0 +1,118 @@
+{
+  "description": "Outcome each claim must produce when samples/claims is processed as one batch, in file-name order.",
+  "outcomes": {
+    "CLM-1001.json": {
+      "scenario": "Clean meal receipt; every check passes.",
+      "status": "COMPLETED",
+      "decision": "APPROVED",
+      "reason_rules": []
+    },
+    "CLM-1002.json": {
+      "scenario": "Two travel receipts that add up to the claimed amount.",
+      "status": "COMPLETED",
+      "decision": "APPROVED",
+      "reason_rules": []
+    },
+    "CLM-1003.json": {
+      "scenario": "Claimed amount exceeds the receipt total.",
+      "status": "COMPLETED",
+      "decision": "REJECTED",
+      "reason_rules": [
+        "CON-003"
+      ]
+    },
+    "CLM-1004.json": {
+      "scenario": "Receipt is older than the 60-day submission window.",
+      "status": "COMPLETED",
+      "decision": "REJECTED",
+      "reason_rules": [
+        "POL-001"
+      ]
+    },
+    "CLM-1005.json": {
+      "scenario": "Total amount extracted with low confidence.",
+      "status": "COMPLETED",
+      "decision": "MANUAL_REVIEW",
+      "reason_rules": [
+        "EXT-003"
+      ]
+    },
+    "CLM-1006.json": {
+      "scenario": "Lodging claim above the category limit.",
+      "status": "COMPLETED",
+      "decision": "MANUAL_REVIEW",
+      "reason_rules": [
+        "POL-003"
+      ]
+    },
+    "CLM-1007.json": {
+      "scenario": "The only document is unreadable (permanent extraction failure).",
+      "status": "COMPLETED",
+      "decision": "MANUAL_REVIEW",
+      "reason_rules": [
+        "CON-003",
+        "EXT-001"
+      ]
+    },
+    "CLM-1008.json": {
+      "scenario": "Receipt currency differs from the claim currency.",
+      "status": "COMPLETED",
+      "decision": "MANUAL_REVIEW",
+      "reason_rules": [
+        "CON-002",
+        "CON-003"
+      ]
+    },
+    "CLM-1009.json": {
+      "scenario": "Extraction service fails once, the retry succeeds.",
+      "status": "COMPLETED",
+      "decision": "APPROVED",
+      "reason_rules": []
+    },
+    "CLM-1010.json": {
+      "scenario": "Extraction service stays unavailable; retries are exhausted.",
+      "status": "FAILED",
+      "decision": null,
+      "reason_rules": []
+    },
+    "CLM-1011.json": {
+      "scenario": "The same receipt is attached twice.",
+      "status": "COMPLETED",
+      "decision": "REJECTED",
+      "reason_rules": [
+        "DUP-001"
+      ]
+    },
+    "CLM-1012.json": {
+      "scenario": "Line items and tax do not add up to the printed total.",
+      "status": "COMPLETED",
+      "decision": "MANUAL_REVIEW",
+      "reason_rules": [
+        "CON-001"
+      ]
+    },
+    "CLM-1013.json": {
+      "scenario": "No supporting document attached.",
+      "status": "COMPLETED",
+      "decision": "REJECTED",
+      "reason_rules": [
+        "DOC-001"
+      ]
+    },
+    "CLM-1014.json": {
+      "scenario": "Re-submits the receipt already claimed in CLM-1001.",
+      "status": "COMPLETED",
+      "decision": "MANUAL_REVIEW",
+      "reason_rules": [
+        "DUP-002"
+      ],
+      "note": "Batch-order dependent: flagged only when CLM-1001 was processed earlier by the same pipeline."
+    },
+    "CLM-1015.json": {
+      "scenario": "Malformed submission rejected at ingestion.",
+      "status": "INVALID_INPUT",
+      "decision": null,
+      "reason_rules": []
+    }
+  }
+}

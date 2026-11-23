@@ -1,0 +1,45 @@
+{
+  "document_id": "DOC-1005-A",
+  "provider": "synthetic-recording",
+  "note": "Pre-recorded extraction result for a synthetic document. No OCR was performed.",
+  "source_sha256": "e3c12800b020b1b169ffc3bb83108ce84180e287555a9429432a87e8f4ef7950",
+  "page_count": 1,
+  "fields": {
+    "merchant_name": {
+      "value": "JUNIPER NOODLE HOUSE",
+      "confidence": 0.97
+    },
+    "receipt_number": {
+      "value": "R-0119-0222",
+      "confidence": 0.97
+    },
+    "transaction_date": {
+      "value": "2026-01-19",
+      "confidence": 0.97
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 0.97
+    },
+    "tax": {
+      "value": "6.00",
+      "confidence": 0.97
+    },
+    "total_amount": {
+      "value": "38.20",
+      "confidence": 0.61
+    }
+  },
+  "line_items": [
+    {
+      "description": "Noodle bowl",
+      "amount": "15.50",
+      "confidence": 0.95
+    },
+    {
+      "description": "Dumplings",
+      "amount": "16.70",
+      "confidence": 0.95
+    }
+  ]
+}

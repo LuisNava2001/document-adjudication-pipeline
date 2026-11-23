@@ -1,0 +1,16 @@
+{
+  "claim_id": "CLM-1012",
+  "claimant_id": "CLMT-0525",
+  "category": "OFFICE_SUPPLIES",
+  "claimed_amount": "27.50",
+  "currency": "USD",
+  "submitted_on": "2026-02-09",
+  "description": "Notebooks and organizer",
+  "documents": [
+    {
+      "document_id": "DOC-1012-A",
+      "file": "DOC-1012-A.txt",
+      "media_type": "text/plain"
+    }
+  ]
+}

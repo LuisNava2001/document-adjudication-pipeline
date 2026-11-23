@@ -1,0 +1,16 @@
+{
+  "claim_id": "CLM-1014",
+  "claimant_id": "CLMT-0630",
+  "category": "MEALS",
+  "claimed_amount": "42.50",
+  "currency": "USD",
+  "submitted_on": "2026-01-29",
+  "description": "Lunch with a visiting partner",
+  "documents": [
+    {
+      "document_id": "DOC-1014-A",
+      "file": "DOC-1014-A.txt",
+      "media_type": "text/plain"
+    }
+  ]
+}

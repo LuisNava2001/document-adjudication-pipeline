@@ -1,0 +1,16 @@
+{
+  "claim_id": "CLM-1006",
+  "claimant_id": "CLMT-0213",
+  "category": "LODGING",
+  "claimed_amount": "480.00",
+  "currency": "USD",
+  "submitted_on": "2026-01-28",
+  "description": "Two nights for an onsite visit",
+  "documents": [
+    {
+      "document_id": "DOC-1006-A",
+      "file": "DOC-1006-A.txt",
+      "media_type": "text/plain"
+    }
+  ]
+}

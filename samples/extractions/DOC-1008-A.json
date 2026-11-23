@@ -1,0 +1,45 @@
+{
+  "document_id": "DOC-1008-A",
+  "provider": "synthetic-recording",
+  "note": "Pre-recorded extraction result for a synthetic document. No OCR was performed.",
+  "source_sha256": "4860e9f38360d2331148e0a20c73d42b8a428b372ca3bc0d7ed6e479c629cb73",
+  "page_count": 1,
+  "fields": {
+    "merchant_name": {
+      "value": "CAFE LUMEN",
+      "confidence": 0.97
+    },
+    "receipt_number": {
+      "value": "CL-0127-0301",
+      "confidence": 0.97
+    },
+    "transaction_date": {
+      "value": "2026-01-27",
+      "confidence": 0.97
+    },
+    "currency": {
+      "value": "EUR",
+      "confidence": 0.97
+    },
+    "tax": {
+      "value": "8.00",
+      "confidence": 0.97
+    },
+    "total_amount": {
+      "value": "55.00",
+      "confidence": 0.97
+    }
+  },
+  "line_items": [
+    {
+      "description": "Lunch menu",
+      "amount": "25.00",
+      "confidence": 0.95
+    },
+    {
+      "description": "Dessert and coffee",
+      "amount": "22.00",
+      "confidence": 0.95
+    }
+  ]
+}

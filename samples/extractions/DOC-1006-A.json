@@ -1,0 +1,45 @@
+{
+  "document_id": "DOC-1006-A",
+  "provider": "synthetic-recording",
+  "note": "Pre-recorded extraction result for a synthetic document. No OCR was performed.",
+  "source_sha256": "bead3f57c1aa51b00c39a1f1b2ef976882e13fcc7a873e37bcdfb28c69d25955",
+  "page_count": 1,
+  "fields": {
+    "merchant_name": {
+      "value": "HARBOR VIEW INN",
+      "confidence": 0.97
+    },
+    "receipt_number": {
+      "value": "H-0126-1180",
+      "confidence": 0.97
+    },
+    "transaction_date": {
+      "value": "2026-01-26",
+      "confidence": 0.97
+    },
+    "currency": {
+      "value": "USD",
+      "confidence": 0.97
+    },
+    "tax": {
+      "value": "60.00",
+      "confidence": 0.97
+    },
+    "total_amount": {
+      "value": "480.00",
+      "confidence": 0.97
+    }
+  },
+  "line_items": [
+    {
+      "description": "Room, night 1",
+      "amount": "210.00",
+      "confidence": 0.95
+    },
+    {
+      "description": "Room, night 2",
+      "amount": "210.00",
+      "confidence": 0.95
+    }
+  ]
+}

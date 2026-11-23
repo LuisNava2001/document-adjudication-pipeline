@@ -1,0 +1,16 @@
+{
+  "claim_id": "CLM-1008",
+  "claimant_id": "CLMT-0318",
+  "category": "MEALS",
+  "claimed_amount": "55.00",
+  "currency": "USD",
+  "submitted_on": "2026-01-30",
+  "description": "Lunch during a trip abroad",
+  "documents": [
+    {
+      "document_id": "DOC-1008-A",
+      "file": "DOC-1008-A.txt",
+      "media_type": "text/plain"
+    }
+  ]
+}

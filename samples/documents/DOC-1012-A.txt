@@ -1,0 +1,14 @@
+========================================
+         BRIGHTDESK SUPPLY CO.
+          (fictional merchant)
+========================================
+Receipt   B-0206-0612
+Date      2026-02-06
+----------------------------------------
+Notebook pack                      12.00
+Desk organizer                     13.00
+----------------------------------------
+Tax                                 1.50
+TOTAL USD                          27.50
+========================================
+SYNTHETIC DEMO DOCUMENT - NOT A REAL RECEIPT

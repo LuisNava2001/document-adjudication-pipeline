@@ -1,0 +1,21 @@
+{
+  "claim_id": "CLM-1011",
+  "claimant_id": "CLMT-0525",
+  "category": "MEALS",
+  "claimed_amount": "70.00",
+  "currency": "USD",
+  "submitted_on": "2026-02-06",
+  "description": "Lunch, two receipts",
+  "documents": [
+    {
+      "document_id": "DOC-1011-A",
+      "file": "DOC-1011-A.txt",
+      "media_type": "text/plain"
+    },
+    {
+      "document_id": "DOC-1011-B",
+      "file": "DOC-1011-B.txt",
+      "media_type": "text/plain"
+    }
+  ]
+}

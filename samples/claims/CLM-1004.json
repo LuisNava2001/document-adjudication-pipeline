@@ -1,0 +1,16 @@
+{
+  "claim_id": "CLM-1004",
+  "claimant_id": "CLMT-0107",
+  "category": "OFFICE_SUPPLIES",
+  "claimed_amount": "31.99",
+  "currency": "USD",
+  "submitted_on": "2026-01-15",
+  "description": "Printer paper and pens",
+  "documents": [
+    {
+      "document_id": "DOC-1004-A",
+      "file": "DOC-1004-A.txt",
+      "media_type": "text/plain"
+    }
+  ]
+}
