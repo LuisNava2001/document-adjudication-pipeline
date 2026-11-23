@@ -34,8 +34,9 @@ under both runners.
 
 ## Verification limits
 
-- Only Windows with Python 3.11.9 has been verified locally.
-- The GitHub Actions workflow (`.github/workflows/ci.yml`: Ubuntu and Windows, Python 3.11 and 3.12) is
-  defined but has not run yet.
+- The GitHub Actions workflow (`.github/workflows/ci.yml`) runs the unit, integration and golden tests and the
+  demo batch in four jobs: Ubuntu and Windows, each with Python 3.11 and 3.12. All four pass.
+- Locally, the suite has been run on Windows with Python 3.11.9. Other Python versions (3.13+) and macOS have
+  not been tested.
 - The visual demo was checked by rendering it in headless Chrome (desktop light and dark, and a 390 px
   phone viewport). There are no automated browser tests.

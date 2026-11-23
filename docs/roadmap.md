@@ -11,8 +11,8 @@
 - **Illustrative rules.** The rules and limits model a fictional domain; they are not a real expense policy.
 - **No authentication or multi-user access.** It is a local command-line tool with a static viewer.
 - **Results are files.** No database and no concurrency control.
-- **Verified environment.** Tests have been run locally on Windows with Python 3.11 only; the CI workflow has
-  not run yet. The visual demo has no automated browser tests.
+- **Verified environments.** CI covers Ubuntu and Windows with Python 3.11 and 3.12; macOS and newer Python
+  versions have not been tested. The visual demo has no automated browser tests.
 
 ## Roadmap
 
