@@ -19,6 +19,8 @@ document problems (for example, an unreadable scan) are business outcomes and do
 `SKIPPED` means "the rule applies, but its evidence is unavailable". It can never reject, because there is no
 rejection without evidence, and never approve, because there is no approval by default. Approval requires at
 least one `PASS` and no `FAIL` or `SKIPPED`; an empty or all-`NOT_APPLICABLE` result set goes to review.
+A claim with no document attached is a different case: `DOC-001` evaluates fully, fails with `REJECT` severity
+and rejects the claim, because the absence of any document is itself the evidence.
 An exception inside a rule is converted into a `SKIPPED` result and recorded as a `RULE_ERROR` audit event,
 so a bug can only make the system more cautious.
 

@@ -3,10 +3,12 @@
 **Turn documents into explained, auditable decisions.** A compact, fully offline reference implementation of a
 document-processing decision pipeline:
 
-**synthetic document → extraction → deterministic validation → decision → audit trace**
+**synthetic document → extraction (replayed fixture) → deterministic validation → decision → audit trace**
 
 It adjudicates fictional expense-reimbursement claims, explains every outcome with the exact evidence and
-thresholds behind it, and records each processing step. Pure Python standard library, no credentials, no network.
+thresholds behind it, and records each processing step. **No OCR runs:** extraction results are pre-recorded
+fixtures replayed behind the extractor interface, where a real OCR service would plug in. Pure Python standard
+library, no credentials, no network.
 
 ![Demo viewer: a rejected claim with its pipeline stages, decision basis and evidence](docs/images/demo-viewer.png)
 
@@ -29,7 +31,10 @@ The hard parts are:
 - **14 deterministic, policy-driven rules**: document quality, formats, arithmetic consistency, category limits,
   submission window and duplicate receipts ([rule catalogue](docs/rules.md)).
 - **Explained decisions**: `APPROVED`, `REJECTED` or `MANUAL_REVIEW`, each citing the rules and evidence behind it.
-- **Fail-safe semantics**: missing evidence routes to a human, never rejects or approves; a crashing rule cannot pass.
+- **Fail-safe semantics**: a rule whose evidence is unavailable (`SKIPPED`) never rejects or approves; it sends the
+  claim to a human. Only a rule that fully evaluated and failed with REJECT severity can reject, for example
+  `DOC-001` when no document is attached at all. Approval needs at least one `PASS` and no `FAIL` or `SKIPPED`. A
+  crashing rule cannot pass.
 - **Status kept apart from the decision**: outages end as `FAILED` (retryable, no decision); unparseable input as
   `INVALID_INPUT`.
 - **Bounded retries** for transient extraction failures; permanent failures are not retried.
