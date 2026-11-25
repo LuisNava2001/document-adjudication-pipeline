@@ -1,4 +1,4 @@
-"""Document AI adjudication pipeline (demonstration).
+"""Document adjudication pipeline (demonstration).
 
 Synthetic document -> extraction -> validation -> decision -> audit trace.
 """

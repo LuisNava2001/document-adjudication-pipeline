@@ -1,4 +1,4 @@
-# Document AI Adjudication Pipeline
+# Document Adjudication Pipeline
 
 **Turn documents into explained, auditable decisions.** A compact, fully offline reference implementation of a
 document-processing decision pipeline:
@@ -12,9 +12,14 @@ library, no credentials, no network.
 
 ![Demo viewer: a rejected claim with its pipeline stages, decision basis and evidence](docs/images/demo-viewer.png)
 
+**Stack:** Python 3.11+ standard library only · ports and adapters · `unittest` · static HTML viewer · GitHub
+Actions (Ubuntu and Windows, Python 3.11 and 3.12). **Try it:** [Quick start](#quick-start) or open
+`demo/index.html` offline.
+
 > **Independent demonstration.** Original code based on general, publicly known software patterns. It contains no
 > code, data, business rules, configuration or identifiers from any employer or client system. Every merchant,
-> identifier, amount and document is synthetic. It has never been deployed and makes no production claims.
+> identifier, amount and document is synthetic. No OCR, machine-learning model or cloud service runs here. It has
+> never been deployed and makes no production claims.
 
 ## The problem
 
@@ -97,7 +102,7 @@ Requirements: Python 3.11 or newer. Run from the repository root.
 
 ```bash
 git clone <repository-url>
-cd document-ai-adjudication-pipeline
+cd document-adjudication-pipeline
 
 python -m adjudication rules                                          # the 14 rules
 python -m adjudication process samples/claims/CLM-1003.json --verbose # one claim, every rule result
@@ -218,10 +223,13 @@ manual-review cases, and sealed evaluation datasets. Full list: [limitations and
 
 ## AI-assisted development
 
-Built with AI assistance: the code, tests, data generators and documentation were drafted with Claude Code
-(Anthropic) under the author's direction. The author defined scope, constraints and acceptance criteria and is
-responsible for reviewing and approving every change before publication. Test results and command outputs shown
-here come from actual local runs.
+I designed and directed this project; it was implemented with substantial help from Claude Code (Anthropic). I
+defined the problem, scope, constraints and acceptance criteria, reviewed the design and the results, and decided
+what to publish. Most of the code, tests and documentation were generated with the assistant under that direction,
+which is why the commits carry a `Co-Authored-By` trailer. Results quoted here come from the automated tests,
+evaluations and CI runs in this repository, on synthetic data. They show that the code behaves as described under
+those conditions, not that it is ready for production, and nothing this README marks as simulated, planned or not
+tested has been validated.
 
 ---
 
