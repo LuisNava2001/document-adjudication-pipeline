@@ -13,7 +13,7 @@ library, no credentials, no network.
 ![Demo viewer: a rejected claim with its pipeline stages, decision basis and evidence](docs/images/demo-viewer.png)
 
 **Stack:** Python 3.11+ standard library only · ports and adapters · `unittest` · static HTML viewer · GitHub
-Actions (Ubuntu and Windows, Python 3.11 and 3.12). **Try it:** [Quick start](#quick-start) or open
+Actions (Ubuntu and Windows, Python 3.11 to 3.13). **Try it:** [Quick start](#quick-start) or open
 `demo/index.html` offline.
 
 > **Independent demonstration.** Original code based on general, publicly known software patterns. It contains no
@@ -186,8 +186,9 @@ python -m unittest discover -s tests -v    # or: python -m pytest
 
 135 tests covering every rule path, decision precedence, ingestion, the extractor's integrity checks, retries and
 failure semantics, the CLI, golden outcomes for all 15 samples, and drift between generated data and its
-generator. GitHub Actions runs the suite and the demo batch in four jobs (Ubuntu and Windows, Python 3.11 and
-3.12), all passing; it was also run locally on Windows with Python 3.11.9. More in [testing](docs/testing.md).
+generator. GitHub Actions runs the suite and the demo batch in six jobs (Ubuntu and Windows, Python 3.11 to 3.13);
+results are in the repository's Actions tab. It was also run locally on Windows with Python 3.11.9. More in
+[testing](docs/testing.md).
 
 ## Project status
 
@@ -196,7 +197,7 @@ generator. GitHub Actions runs the suite and the demo batch in four jobs (Ubuntu
 | **Implemented** | Claim ingestion and validation, 14 rules, decision engine, bounded retries, audit trail (memory and JSONL), duplicate detection, deterministic mode, CLI, packaging, static visual demo, 135 automated tests |
 | **Simulated** | OCR / document analysis: the `FixtureExtractor` replays **pre-recorded** extraction results; no OCR runs anywhere. Extraction-service failures are replayed from the same recordings |
 | **Planned** | Azure AI Document Intelligence adapter, Azure Functions and Storage Queue triggers, Cosmos DB persistence, Azure OpenAI review assistant, transactional outbox, durable idempotency and concurrency control, dashboard over persisted results, sealed-dataset evaluation |
-| **Verified in CI** | GitHub Actions: tests and demo batch pass on Ubuntu and Windows with Python 3.11 and 3.12 (4 jobs) |
+| **Verified in CI** | GitHub Actions: tests and demo batch on Ubuntu and Windows with Python 3.11 to 3.13 (6 jobs) |
 
 ## Limitations and roadmap
 
